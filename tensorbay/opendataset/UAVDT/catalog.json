@@ -1,0 +1,66 @@
+{
+    "BOX2D": {
+        "isTracking": true,
+        "categories": [{ "name": "car" }, { "name": "trunck" }, { "name": "bus" }],
+        "attributes": [
+            {
+                "name": "out_of_view",
+                "enum": ["no", "medium", "small"]
+            },
+            {
+                "name": "occlusion",
+                "enum": ["no", "large", "medium", "small"]
+            },
+            {
+                "name": "score",
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0
+            }
+        ]
+    },
+    "CLASSIFICATION": {
+        "attributes": [
+            {
+                "name": "daylight",
+                "type": "boolean"
+            },
+            {
+                "name": "night",
+                "type": "boolean"
+            },
+            {
+                "name": "fog",
+                "type": "boolean"
+            },
+            {
+                "name": "low-alt",
+                "type": "boolean"
+            },
+            {
+                "name": "medium-alt",
+                "type": "boolean"
+            },
+            {
+                "name": "high-alt",
+                "type": "boolean"
+            },
+            {
+                "name": "front-view",
+                "type": "boolean"
+            },
+            {
+                "name": "side-view",
+                "type": "boolean"
+            },
+            {
+                "name": "bird-view",
+                "type": "boolean"
+            },
+            {
+                "name": "long-term",
+                "type": "boolean"
+            }
+        ]
+    }
+}
